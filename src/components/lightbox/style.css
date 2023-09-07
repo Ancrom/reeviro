@@ -1,0 +1,28 @@
+.lightbox {
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	bottom: -50px;
+	left: 0;
+	right: 0;
+	background: var(--color-main);
+	cursor: zoom-out;
+	display: grid;
+	place-items: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity var(--transition);
+}
+.lightbox__image {
+	display: block;
+	max-width: 100vw;
+	max-height: 100vh;
+	padding: 0 0 50px 0;
+	pointer-events: none;
+}
+
+.lightbox.active {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity var(--transition);
+}

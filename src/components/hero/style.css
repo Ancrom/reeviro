@@ -1,0 +1,40 @@
+/* ==================== HERO ==================== */
+.hero {
+	background: no-repeat 8% 0 / auto 100vh url(./../../img/main/Valorant_zine_illustration.webp);
+	background-attachment: fixed;
+	color: var(--text-color);
+	text-align: center;
+	transition: background var(--transition);
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.hero__title {
+	font-size: 45px;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+	text-transform: uppercase;
+}
+.hero__subtitle {
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+@media (min-width: 601px) {
+	.hero {
+		background-position: 50% 0;
+		background-size: cover;
+	}
+	.hero__title {
+		font-size: 90px;
+	}
+	.hero__subtitle {
+		font-size: 34px;
+	}
+}
+
+@media (orientation: portrait) and (max-width: 1081px) {
+	.hero {
+		background-position: 8% 0;
+	}
+}
