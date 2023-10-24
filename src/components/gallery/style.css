@@ -18,6 +18,7 @@
 	position: relative;
 	overflow: hidden;
 	transition: transform var(--transition-fast);
+	will-change: transform, opacity;
 }
 .gallery__item + .gallery__item {
 	margin: 15px 0 0 0;
@@ -33,7 +34,7 @@
 	opacity: 0;
 	transition: opacity var(--transition);
 	z-index: 2;
-	pointer-events: none; 
+	pointer-events: none;
 }
 .gallery__item:hover .gallery__image {
 	transform: scale(1.05);

@@ -2,6 +2,9 @@
 .accordion {
 	padding: 80px 0;
 }
+.accordion__body {
+	will-change: opacity, transform;
+}
 .accordion__body + .accordion__body {
 	margin: 30px 0 0 0;
 }
