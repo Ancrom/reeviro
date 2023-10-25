@@ -1,18 +1,15 @@
+import React, { useLayoutEffect } from "react";
 import { NavLink } from "react-router-dom";
-
 import "./style.css";
-import "./../../styles/burger.css";
+import "./../../styles/burger.css"
 
 const Nav = ({ navColor, menuActive, setMenuActive }) => {
   return (
     <>
       <nav
         className="nav"
-        data-aos="fade-down"
-        data-aos-duration="500"
-        data-aos-once="true"
       >
-        <div className="nav__container container">
+        <div className="nav__container container fade-down">
           <div className="nav__menu">
             <ul className={`nav__list ${navColor && "nav__list--dark"}`}>
               <li className="nav__item">

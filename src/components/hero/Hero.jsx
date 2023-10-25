@@ -5,10 +5,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div
-        className="hero__container container"
-        data-aos="fade-up"
-        data-aos-duration="500"
-        data-aos-once="true"
+        className="hero__container container fade-up"
       >
         <h1 className="hero__title">Natalya&nbsp;Samutina</h1>
         <div className="logo logo--white">

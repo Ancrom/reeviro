@@ -30,7 +30,6 @@ const Lightbox = ({
       ? selectedImage.img
       : projectImage?.imgs?.[selectedImageIndex];
 
-
   return (
     <div
       className={`lightbox ${lightboxActive ? "active" : ""}`}

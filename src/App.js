@@ -1,7 +1,6 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState, useLayoutEffect } from "react";
 import "./styles/reset.css";
-import "./styles/AOS.css";
 import "./styles/base.css";
 import Footer from "./../src/components/footer/Footer";
 import BtnContactMe from "../src/components/btnContactMe/BtnContactMe";
@@ -22,8 +21,9 @@ function App() {
     menuActive,
     setMenuActive,
     lightboxActive,
-    setLightboxActive,
+    setLightboxActive
   };
+
 
   return (
     <div className="App">

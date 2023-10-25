@@ -30,9 +30,7 @@ const Accordion = ({ lightboxActive, setLightboxActive }) => {
           {projectsList.map((project) => (
             <div
               key={project.id}
-              className="accordion__body"
-              data-aos="fade-up"
-              data-aos-once="true"
+              className="accordion__body fade-up"
             >
               <h2 className="accordion__title">
                 <span>{project.title}</span>

@@ -3,8 +3,8 @@ import photo from "./photo.webp";
 
 const About = () => {
   return (
-    <section className="about" data-aos="fade-up" data-aos-once="true">
-      <div className="about__container container">
+    <section className="about">
+      <div className="about__container container fade-up">
         <div className="about__left">
           <div className="about__photo image">
             <img src={photo} alt="Natalya's Photo" className="about__image" />

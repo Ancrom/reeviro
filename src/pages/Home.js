@@ -10,7 +10,7 @@ const Home = ({
 }) => {
   return (
     <>
-      <Nav menuActive={menuActive} setMenuActive={setMenuActive} />
+      <Nav menuActive={menuActive} setMenuActive={setMenuActive}/>
       <Hero />
       <Gallery
         columns="2"
