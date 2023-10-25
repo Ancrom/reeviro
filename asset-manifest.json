@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reeviro/static/css/main.d81da7c3.css",
-    "main.js": "/reeviro/static/js/main.52a15757.js",
+    "main.css": "/reeviro/static/css/main.d68e9c35.css",
+    "main.js": "/reeviro/static/js/main.86c9a799.js",
     "static/js/787.24c5123f.chunk.js": "/reeviro/static/js/787.24c5123f.chunk.js",
     "static/media/DemonXShamans.webp": "/reeviro/static/media/DemonXShamans.4fd516c5a3ba006042ed.webp",
     "static/media/Ice_legend.webp": "/reeviro/static/media/Ice_legend.9ca95c7923d01898ac4f.webp",
@@ -33,12 +33,12 @@
     "static/media/lol portrait_reeviro.webp": "/reeviro/static/media/lol portrait_reeviro.50caa4cb8635cdb3f16b.webp",
     "static/media/Kj_emotons_reeviro.webp": "/reeviro/static/media/Kj_emotons_reeviro.a05aa092ea395f64b42b.webp",
     "index.html": "/reeviro/index.html",
-    "main.d81da7c3.css.map": "/reeviro/static/css/main.d81da7c3.css.map",
-    "main.52a15757.js.map": "/reeviro/static/js/main.52a15757.js.map",
+    "main.d68e9c35.css.map": "/reeviro/static/css/main.d68e9c35.css.map",
+    "main.86c9a799.js.map": "/reeviro/static/js/main.86c9a799.js.map",
     "787.24c5123f.chunk.js.map": "/reeviro/static/js/787.24c5123f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d81da7c3.css",
-    "static/js/main.52a15757.js"
+    "static/css/main.d68e9c35.css",
+    "static/js/main.86c9a799.js"
   ]
 }
